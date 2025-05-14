@@ -2,7 +2,7 @@ import java.util.*;
 
 class Solution {
     public int solution(String[] friends, String[] gifts) {
-         int n = friends.length;
+        int n = friends.length;
         Map<String, Integer> nameToIndex = new HashMap<>();
         for (int i = 0; i < n; i++) {
             nameToIndex.put(friends[i], i);
